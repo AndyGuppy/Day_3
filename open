@@ -1,7 +1,0 @@
-counter =0
-cycle_count = 5
-while couner <> cyclecount
-puts counter
-
-counter +=1
-loop
