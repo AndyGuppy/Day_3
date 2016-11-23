@@ -95,4 +95,12 @@ users["Erik"][:favourite_numbers] << 7
 users["Erik"][:home_town] = "Edinburgh"
 # 8. Add a pet dog to Erik called "Fluffy"
 users["Erik"][:pets]["Fluffy"] = :Dog
-# 9. Add yourself to the users hash
+# 9. Add yourself to the users hash?
+users["Andy Guppy"] = {
+  :twitter => "Im_an_idiot",
+  :favourite_numbers => [23, 1, 97, 8],
+  :home_town => "Glenrothes",
+  :pets => {
+    "bob" => :monkey
+  }
+}
